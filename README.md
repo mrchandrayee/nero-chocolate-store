@@ -61,6 +61,12 @@ nero-chocolate-store/
 
 ---
 
+## 🏷️ Topics
+
+`ecommerce-ui` `chocolate-store` `css-design` `javascript` `html-css-js` `frontend` `product-page` `web-design`
+
+---
+
 ## 👨‍💻 Author
 
 **mrchandrayee** · [GitHub](https://github.com/mrchandrayee) · [Profile](https://github.com/mrchandrayee/mrchandrayee)
