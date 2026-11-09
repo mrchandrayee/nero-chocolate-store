@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#eee9e2">
+
+<!-- Primary SEO -->
+<title>NÉRO — Crafted Chocolate Store | mrchandrayee</title>
+<meta name="description" content="A premium bean-to-bar chocolate store UI with product showcase, add-to-bag interaction, and elegant editorial design. Pure HTML, CSS & JavaScript.">
+<meta name="keywords" content="chocolate store, ecommerce UI, product page, CSS design, JavaScript, web design, mrchandrayee, frontend, NERO chocolate">
+<meta name="author" content="mrchandrayee">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mrchandrayee.github.io/nero-chocolate-store/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mrchandrayee.github.io/nero-chocolate-store/">
+<meta property="og:title" content="NÉRO — Crafted Chocolate Store | mrchandrayee">
+<meta property="og:description" content="A premium bean-to-bar chocolate store UI with product showcase, add-to-bag interaction, and elegant editorial design.">
+<meta property="og:image" content="https://mrchandrayee.github.io/nero-chocolate-store/preview.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://mrchandrayee.github.io/nero-chocolate-store/">
+<meta name="twitter:title" content="NÉRO — Crafted Chocolate Store | mrchandrayee">
+<meta name="twitter:description" content="Premium bean-to-bar chocolate store UI — elegant editorial design with product showcase and bag interaction.">
+<meta name="twitter:image" content="https://mrchandrayee.github.io/nero-chocolate-store/preview.png">
+<meta name="twitter:creator" content="@mrchandrayee">
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NÉRO — Crafted Chocolate Store",
+  "description": "A premium bean-to-bar chocolate store UI with product showcase, add-to-bag interaction, and elegant editorial design. Pure HTML, CSS & JavaScript.",
+  "url": "https://mrchandrayee.github.io/nero-chocolate-store/",
+  "author": { "@type": "Person", "name": "mrchandrayee", "url": "https://github.com/mrchandrayee" },
+  "applicationCategory": "WebApplication",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="browser">
+  <div class="browserbar"><div class="dots"><i></i><i></i><i></i></div><span>NÉRO — HTML · CSS · JS</span><small>Local preview / store</small></div>
+  <main class="store" id="store">
+    <nav class="nav">
+      <a class="wordmark" href="#" aria-label="Nero home">NÉRO<span>®</span></a>
+      <div class="navlinks"><a href="#collection">Shop</a><a href="#story">Our story</a><a href="#footer">Journal</a></div>
+      <button class="bag" id="bagBtn">Bag <span id="bagCount">0</span><b>↗</b></button>
+    </nav>
+    <section class="hero" id="collection">
+      <div class="eyebrow"><span class="eyebrow-line"></span> THE SIGNATURE COLLECTION <span class="eyebrow-line"></span></div>
+      <div class="ghost-word" id="ghostWord">NÉRO</div>
+      <div class="product-visual" id="productVisual" aria-label="Chocolate product illustration">
+        <div class="shadow"></div>
+        <div class="floating bean bean-a"></div><div class="floating bean bean-b"></div>
+        <div class="floating bean bean-c"></div><div class="floating bean bean-d"></div>
+        <div class="chocolate-art" id="chocolateArt"></div>
+      </div>
+      <div class="product-copy">
+        <div class="edition" id="edition">01 / SIGNATURE SERIES</div>
+        <h1><span id="titleTop">Sea</span><br><em id="titleBottom">Salt</em></h1>
+        <p class="subtitle" id="subtitle">DARK CHOCOLATE · SEA SALT FLAKES</p>
+        <p class="description" id="description">A beautiful balance of deep cocoa and delicate mineral sea salt. Crafted slowly, finished by hand.</p>
+        <div class="rating"><strong id="rating">4.9</strong><span class="stars">★★★★★</span><small id="reviews">(128 reviews)</small></div>
+        <div class="price-row"><span class="price" id="price">₹799</span><span class="weight">/ 80 g · 4 bars</span></div>
+        <button class="add-btn" id="addBtn">ADD TO BAG <span>↗</span></button>
+        <div class="shipping">✦ &nbsp;Complimentary shipping on orders over ₹1,499</div>
+      </div>
+      <div class="vertical-note">BEAN TO BAR · SMALL BATCH · EST. 2018</div>
+      <div class="product-index" id="productIndex">01 <span>—</span> 04</div>
+      <div class="thumbs" id="thumbs" aria-label="Choose chocolate">
+        <button class="thumb active" data-index="0" aria-label="Sea Salt"><span class="mini mini-sea"></span></button>
+        <button class="thumb" data-index="1" aria-label="Orange"><span class="mini mini-orange"></span></button>
+        <button class="thumb" data-index="2" aria-label="Noir 85 percent"><span class="mini mini-noir"></span></button>
+        <button class="thumb" data-index="3" aria-label="Origin 72 percent"><span class="mini mini-origin"></span></button>
+      </div>
+      <div class="swipe-hint">SELECT A BAR <span>↓</span></div>
+    </section>
+    <section class="below" id="story"><div><span>01 — OUR PHILOSOPHY</span><h2>Chocolate, with<br><em>nothing to hide.</em></h2></div><p>Thoughtfully sourced cacao. A short list of honest ingredients. Every NÉRO bar is made to slow you down and savour the moment.</p></section>
+    <footer id="footer"><a class="wordmark" href="#">NÉRO<span>®</span></a><span>MADE WITH INTENTION. SAVOURED WITH TIME.</span><span>© NÉRO 2026</span></footer>
+    <div class="toast" id="toast" role="status">Added to your bag</div>
+  </main>
+</div>
+<script src="app.js"></script>
+</body></html>
